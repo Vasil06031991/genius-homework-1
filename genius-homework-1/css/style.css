@@ -1,0 +1,113 @@
+:root {
+    --color-brand: #2B7FFF;
+    --color-base: #011C44;
+    --color-light: #FFFFFF;
+    --color-gray: #747272;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    unicode-bidi: none;
+}
+
+a {
+    color: var(--color-base);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+body {
+    color: var(--color-base);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+h1 {
+    color: var(--color-brand);
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+h3 {
+    color: var(--color-light);
+    font-size: 22px;
+    line-height: 26px;
+}
+
+button {
+    background: var(--color-brand);
+    border: 2px solid var(--color-brand);
+    color: var(--color-base);
+    /* border:  var(--color-brand); */
+    border-radius: 32px;
+    width: 219px;
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+button:hover {
+    background: var(--color-light);
+}
+
+.link-footer {
+    color: var(--color-light);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.link-footer:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+span {
+    color: var(--color-brand);
+}
+
+.logo {
+    color: var(--color-brand);
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+footer {
+    background: var(--color-base);
+}
+
+.about-as-company {
+    text-transform: capitalize;
+    color: var(--color-brand);
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-data {
+    color: var(--color-gray);
+}
